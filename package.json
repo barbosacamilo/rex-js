@@ -1,7 +1,7 @@
 {
   "name": "rex-js",
   "version": "0.1.0",
-  "description": "A tiny JavaScript UI library; Ideal for developers bored of downloading 500MB of dependencies just to make a counter.",
+  "description": "A tiny JavaScript UI library to avoid downloading 500MB of dependencies just to make a counter.",
   "author": "Camilo Barbosa <juanbedoya.barbosa@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
