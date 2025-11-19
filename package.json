@@ -1,0 +1,23 @@
+{
+  "name": "rex-js",
+  "version": "0.1.0",
+  "description": "A tiny JavaScript UI library; Ideal for developers bored of downloading 500MB of dependencies just to make a counter.",
+  "author": "Camilo Barbosa <juanbedoya.barbosa@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["rex", "UI", "web", "DOM"],
+  "devDependencies": {
+    "jsdom": "^27.2.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.9"
+  }
+}
