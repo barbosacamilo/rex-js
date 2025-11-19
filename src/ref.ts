@@ -1,4 +1,4 @@
-import { Subscriber, Updater } from "./types";
+import { Subscriber, Updater } from "./types.js";
 
 export class Ref<T> {
     private value: T;
