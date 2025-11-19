@@ -4,9 +4,10 @@
   "description": "A tiny JavaScript UI library to avoid downloading 500MB of dependencies just to make a counter.",
   "author": "Camilo Barbosa <juanbedoya.barbosa@gmail.com>",
   "license": "MIT",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
   "files": ["dist"],
   "scripts": {
     "test": "vitest",
