@@ -14,7 +14,7 @@
     "dev": "tsc -w -p tsconfig.json",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["rex", "UI", "web", "DOM"],
+  "keywords": ["rex-js", "UI", "web", "DOM"],
   "devDependencies": {
     "jsdom": "^27.2.0",
     "typescript": "^5.9.3",
