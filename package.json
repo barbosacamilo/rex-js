@@ -1,5 +1,5 @@
 {
-  "name": "rex-js",
+  "name": "domrex",
   "version": "0.1.0",
   "description": "A tiny JavaScript UI library to avoid downloading 500MB of dependencies just to make a counter.",
   "author": "Camilo Barbosa <juanbedoya.barbosa@gmail.com>",
@@ -14,7 +14,7 @@
     "dev": "tsc -w -p tsconfig.json",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["rex-js", "UI", "web", "DOM"],
+  "keywords": ["domrex", "UI", "web", "DOM"],
   "devDependencies": {
     "jsdom": "^27.2.0",
     "typescript": "^5.9.3",
